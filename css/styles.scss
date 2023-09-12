@@ -1,0 +1,131 @@
+
+.navbar {
+    background-color: rgb(8, 161, 8);
+    font-family: 'ADLaM Display', cursive;
+    
+}
+
+body {
+    font-family: 'ADLaM Display', cursive;
+}
+.card-body {
+    font-family: 'ADLaM Display', cursive;
+}
+
+  .modal-body {
+    padding: 0;
+  }
+  .btn-close {
+    position: absolute;
+    right: 0;
+    padding: 1em;
+  }
+  .form-area h1 {
+    font-size: 2.3em;
+    font-weight: bold;
+  }
+  .form-area {
+	padding: 3em;
+	max-width: 100%;
+	color: #fff;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+} 
+  
+  .form-control {
+    background-color: inherit;
+    color: #fff;
+    padding-left: 0;
+    border: 1px solid #fff;
+    border-radius: 0;
+  }
+  .form-area .btn {
+	width: 100%;
+	font-weight: 800;
+	background-color: #fff;
+	padding: 0.5em 0;
+	border-radius: 50px;
+}
+.btn.btn-primary {
+	padding: 15px 50px;
+	font-family: alfa slab one;
+	font-size: 20px;
+	letter-spacing: 2px;
+	border-radius: 50px;
+}
+  .form-area .btn:hover {
+    background-color: inherit;
+    color: #fff;
+    border-color: #fff;
+  }
+  .form-area p {
+    text-align: center;
+    padding-top: 2em;
+    color: #fff;
+  }
+  .form-area p a {
+    color: #e1e1e1;
+    text-decoration: none;
+  }
+  .form-area p a:hover {
+    color: #fff;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    font-family: 'ADLaM Display', cursive;
+    display: inline-block;
+    margin-right: 10px; /* add spacing between items */
+  }
+  .fa-star  {
+    color: red;
+  }
+  .fa-star-half {
+    color: red;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+#recipes {
+    color: rgb(8, 161, 8);
+    text-align: center;
+}
+#submit {
+    color: rgb(8, 161, 8);
+    text-align: center;
+}
+form {
+    background-color: rgb(8, 161, 8);
+    padding: 50;
+    border-radius: 20;
+    margin: 40;
+}
+label {
+    font-family: 'ADLaM Display', cursive;
+    color: white;
+}
+#submitbtn {
+    color: rgb(8, 161, 8);
+}
+#More {
+    color: white;
+}
+h2 {
+    font-family: 'ADLaM Display', cursive;
+}
+footer {
+    background-color: #bee4bc;
+    padding: 20;
+}
+
+  @media (max-width: 600px){
+    .form-area{
+        padding: 1.5em;
+    }
+    .form-area h1{
+        font-size: 18px;
+    }
+  }
+
